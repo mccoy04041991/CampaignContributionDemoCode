@@ -35,3 +35,5 @@ data = requests.get(link).json()
 
 * **Issue#4: Party Name Mismatch:** Certain candidates have more than one party name assigned to them for a given year. In order to avoid this discrepancy for this demo, I've put logic by googling correct party for the respective candiates. In real-time enviroment, we'll have to use more reliable and robust data and then we can write logic to validate this information.
 
+**How to run/test CNN_DemoCode.ipynb notebook**
+* We'll need to set-up jupyter notebook and anaconda environment to run/test this notebook.
